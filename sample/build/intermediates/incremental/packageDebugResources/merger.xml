@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res"><file path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/drawable-v24/ic_launcher_foreground.xml" preprocessing="true" qualifiers="v24"><generated-file path="/home/jeremy/projects/beagle/android/shopper/sample/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml" qualifiers="anydpi-v24" type="drawable"/></file></source><source path="/home/jeremy/projects/beagle/android/shopper/sample/build/generated/res/rs/debug"/><source path="/home/jeremy/projects/beagle/android/shopper/sample/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res"><file name="ic_launcher" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher_round" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/mipmap-xxhdpi/ic_launcher.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/mipmap-xhdpi/ic_launcher.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/mipmap-xhdpi/ic_launcher_round.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="selector_icon_color" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/color/selector_icon_color.xml" qualifiers="" type="color"/><file name="ic_launcher" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/mipmap-xxxhdpi/ic_launcher.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/values/styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
+    </style><style name="AppTheme.NoToolbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorHint">@color/colorGray</item>
+        <item name="android:scrollbarThumbVertical">@color/colorGray</item>
+        <item name="android:scrollbarThumbHorizontal">@color/colorGray</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style><style name="DesignSystem.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="titleTextAppearance">@style/DesignSystem.Toolbar.TextAppearance</item>
+        <item name="backgroundColor">@color/colorPrimary</item>
+    </style><style name="DesignSystem.Toolbar.Center" parent="Widget.AppCompat.Toolbar">
+        <item name="titleTextAppearance">@style/DesignSystem.Toolbar.TextAppearance</item>
+        <item name="backgroundColor">@color/colorPrimary</item>
+        <item name="centerTitle">true</item>
+    </style><style name="DesignSystem.TabView.Default" parent="Widget.Design.TabLayout">
+        <item name="tabSelectedTextColor">@color/colorWhite</item>
+        <item name="tabTextColor">@color/colorBlack</item>
+        <item name="tabBackground">@color/colorPrimaryDark</item>
+        <item name="tabIndicatorColor">@color/colorWhite</item>
+        <item name="tabIconTint">@color/selector_icon_color</item>
+    </style><style name="DesignSystem.Navigationbar.Style" parent="Widget.AppCompat.Toolbar">
+        <item name="titleTextAppearance">@style/DesignSystem.Toolbar.TextAppearance</item>
+        <item name="backgroundColor">@color/colorGreen</item>
+        <item name="navigationIcon">?attr/homeAsUpIndicator</item>
+    </style><style name="DesignSystem.Toolbar.TextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="DesignSystem.Button.Default" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/selector_button</item>
+    </style><style name="DesignSystem.Button.White" parent="DesignSystem.Button.Default">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:background">@drawable/bg_white_button</item>
+    </style><style name="DesignSystem.Button.Black" parent="DesignSystem.Button.Default">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@color/colorBlack</item>
+        <item name="android:autoLink">all</item>
+        <item name="android:textColorLink">@color/colorWhite</item>
+    </style><style name="DesignSystem.Button.Text" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style><style name="DesignSystem.Text.Default" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">12sp</item>
+    </style><style name="TextInput" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColorHint">@color/colorGreen</item>
+        <item name="android:background">@color/colorKaie</item>
+    </style><style name="DesignSystem.TextInput.Style.Bff" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:background">@drawable/text_input_background</item>
+    </style><style name="DesignSystem.Text.H2" parent="DesignSystem.Text.Default">
+        <item name="android:textSize">20sp</item>
+    </style><style name="DesignSystem.Text.H3" parent="DesignSystem.Text.Default">
+        <item name="android:textSize">18sp</item>
+    </style><style name="DesignSystem.Text.helloWord" parent="DesignSystem.Text.Default">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="DesignSystem.Text.Image.Remote" parent="DesignSystem.Text.Default">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style><style name="DesignSystem.Button.Style" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style><style name="DesignSystem.Stylish.Button" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/colorGray</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style><style name="DesignSystem.Stylish.ButtonAndAppearance" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="DesignSystem.Text.Action.Click" parent="DesignSystem.Text.Default">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:autoLink">all</item>
+    </style><style name="DesignSystem.Form.Submit" parent="DesignSystem.Button.Text">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@drawable/bg_form_button</item>
+    </style></file><file path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/values/colors.xml" qualifiers=""><color name="colorPrimary">#008577</color><color name="colorPrimaryDark">#00574B</color><color name="colorAccent">#D81B60</color><color name="colorWhite">#FFFFFF</color><color name="colorBlack">#000000</color><color name="colorGray">#6F6F6F</color><color name="colorKaie">#1b2534</color><color name="colorGreen">#008000</color></file><file path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">beagle-android</string><string name="tv_screen_deeplink">Screen DeepLink</string><string name="title_btn_retry">Try again</string><string name="deprecated_list">Deprecated List</string><string name="local_list">List Without onInit</string><string name="nested_list">List With Nested List</string><string name="nested_list_with_image">List With Nested Image List</string></file><file name="bg_gradient_button" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/drawable-v21/bg_gradient_button.xml" qualifiers="v21" type="drawable"/><file name="doubt" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/drawable-v21/doubt.png" qualifiers="v21" type="drawable"/><file name="bg_white_button" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/drawable-v21/bg_white_button.xml" qualifiers="v21" type="drawable"/><file name="activity_main" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/layout/activity_main.xml" qualifiers="" type="layout"/><file name="fragment_list_view" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/layout/fragment_list_view.xml" qualifiers="" type="layout"/><file name="custom_page_indicator" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/layout/custom_page_indicator.xml" qualifiers="" type="layout"/><file name="activity_deep_link" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/layout/activity_deep_link.xml" qualifiers="" type="layout"/><file name="activity_server_driven" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/layout/activity_server_driven.xml" qualifiers="" type="layout"/><file name="ic_launcher_background" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/drawable/ic_launcher_background.xml" qualifiers="" type="drawable"/><file name="beagle" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/drawable/beagle.png" qualifiers="" type="drawable"/><file name="bg_gradient_button" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/drawable/bg_gradient_button.xml" qualifiers="" type="drawable"/><file name="bg_disabled_button" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/drawable/bg_disabled_button.xml" qualifiers="" type="drawable"/><file name="selector_button" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/drawable/selector_button.xml" qualifiers="" type="drawable"/><file name="beagle_image" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/drawable/beagle_image.png" qualifiers="" type="drawable"/><file name="bg_white_button" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/drawable/bg_white_button.xml" qualifiers="" type="drawable"/><file name="text_input_background" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/drawable/text_input_background.xml" qualifiers="" type="drawable"/><file name="indicator_default" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/drawable/indicator_default.xml" qualifiers="" type="drawable"/><file name="bg_form_button" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/drawable/bg_form_button.xml" qualifiers="" type="drawable"/><file name="ic_launcher" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/mipmap-mdpi/ic_launcher.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/mipmap-mdpi/ic_launcher_round.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/mipmap-hdpi/ic_launcher.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/mipmap-hdpi/ic_launcher_round.png" qualifiers="hdpi-v4" type="mipmap"/><file name="menu_navigation_drawer" path="/home/jeremy/projects/beagle/android/shopper/sample/src/main/res/menu/menu_navigation_drawer.xml" qualifiers="" type="menu"/></source><source path="/home/jeremy/projects/beagle/android/shopper/sample/build/generated/res/rs/debug"/><source path="/home/jeremy/projects/beagle/android/shopper/sample/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/jeremy/projects/beagle/android/shopper/sample/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/jeremy/projects/beagle/android/shopper/sample/src/debug/res"/></dataSet><mergedItems/></merger>
